@@ -1,0 +1,429 @@
+.logo {
+    text-align: left;
+}
+
+.addres {
+    line-height: 18px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+}
+
+.addres a {
+    text-align: right;
+    font-size: 14px;
+    color: #700005;
+    font-weight: 400;
+}
+
+.numer {
+    font-size: 23px;
+    line-height: 28px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+}
+
+.line {
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: #EFEFEF;
+    left: 15px
+}
+
+.line1 span {
+    padding-left: 15px
+}
+
+.line1 h2::before {
+    content: "";
+    height: 53px;
+    padding-left: 9px;
+    background-color: #404242;
+
+}
+
+.numer a {
+    text-align: center;
+    font-size: 14px;
+    color: #700005;
+    font-weight: 400;
+}
+
+.vhod {
+    text-align: center;
+    width: 100%;
+}
+
+.nrp {
+    padding-right: 0;
+}
+
+
+
+
+.icon-user {
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: right;
+    line-height: 16px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+}
+
+#block1 {
+    padding-top: 15px;
+}
+
+#block2 {
+    background-color: #070908;
+}
+
+#block2 .colorred {
+    color: #AD0608;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #810000;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 20px;
+}
+
+#block3 {
+    background-image: url(bg.png);
+    width: auto;
+    min-height: 439px;
+    display: block
+}
+
+
+#block3 .btn {
+    width: 222px;
+    min-height: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    position: relative;
+    margin-top: 15px;
+
+}
+
+@media (max-width: 540px) {
+    #block3 .btn {
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    #block3 h1 {
+        font-size: 24px;
+
+    }
+}
+
+.text {
+    margin-top: 90px;
+}
+
+#block4 {
+    width: auto;
+    min-height: 290px;
+    display: block;
+    background-color: #F7F7F7;
+}
+
+#block4 img {
+    text-align: center;
+}
+
+#block5 {
+    display: block;
+    min-height: 500px;
+}
+
+.images {
+    position: absolute;
+    top: -25px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#block6 {
+    display: block;
+    min-height: 550px;
+}
+
+.icon {
+    width: 61px;
+    height: 58px;
+    background-image: url(../img/icon/11.svg);
+    display: inline-block;
+}
+
+.icon:hover {
+    background-image: url(../img/icon/icon_1.png);
+
+}
+
+.ctrelka {
+    position: absolute;
+    background-color: 0xb9b9b9;
+    background-image: url(../img/icon/arrow2.png);
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 40px;
+    top: 20px;
+    display: none;
+}
+
+.nonblock:hover .ctrelka {
+    display: block;
+}
+
+.nonblock:hover {
+    color: aliceblue;
+}
+
+.nonblock {
+    width: auto;
+    height: 220px;
+    background-color: #F4F4F4;
+    border-color: #787878;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.nonblock:hover {
+    background-color: #6e0003;
+}
+
+#block7 {
+    background-color: #414242;
+    height: 100%px;
+    min-height: 241px;
+    display: block;
+}
+
+#block7 hr {
+    margin-bottom: 0;
+}
+
+
+
+.size {
+    color: #BFBFBF;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    margin-top: 9px;
+    position: relative;
+}
+
+.size__too {
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.txbl:hover .size__too {
+    color: #DE4542;
+    cursor: pointer;
+}
+
+.txbl:hover {
+    cursor: pointer;
+}
+
+.bigsize {
+    color: #FFFFFF;
+    font-size: 27px;
+    line-height: 32px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+}
+}
+
+.minsize {
+    color: #fff;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+
+}
+
+.text-footer {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+}
+
+.box2 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.box2 li {
+    list-style-type: none;
+    line-height: 2
+}
+
+.box3 ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #666666;
+}
+
+#block8 {
+    padding-top: 25px;
+    background-color: #414242;
+    min-height: 240px;
+    display: block;
+}
+
+/*________________________________zakon______________________________________*/
+.text1 {
+    font-size: 29px;
+    line-height: 35px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+}
+
+.text1::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    min-width: 80%;
+    max-width: 90%;
+    width: auto;
+    height: 1px;
+    background: #E0E0E0;
+    border: solid #FFF;
+    border-width: 0 10px;
+}
+
+.box txbl{
+    min-height: 250px;
+}
+
+.zagolovok {
+    color: #4C4C4C;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+}
+
+.txbl a {
+    text-decoration: none;
+}
+
+.txbl:hover .zagolovok {
+    color: #DE4542;
+    cursor: pointer;
+}
+
+.zagolovok:hover {
+    color: #FC4E56;
+
+}
+
+.soder {
+    color: #636363;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+}
+
+
+.modtext {
+    font-size: 31px;
+    text-align: center;
+    line-height: 37px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+}
+/*__________________-\-------___----------------------_companu__________________-\-------___----------------------_*/
+.companu-content{
+    min-height: 620px;
+    display: block
+}
+.preim{
+    min-height: 215px;
+    display: block;
+    background-color: #6e0003;
+}
+
+.darkred{
+    width: auto;
+    height: 220px;
+    background-color: #7b0b0e;
+    border-color: #787878;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 0px;
+    padding-top: 60px;
+}
+.red{
+    width: auto;
+    height: 220px;
+    background-color: #801619;
+    border-color: #787878;
+    cursor: pointer;
+    color: aliceblue;
+    padding-top: 60px;
+}
+.preimtext{
+    min-height: 215px;
+    display: block;
+}
+
+.preimtext p{
+padding-top: 60px;
+}
+
+.contac-content{
+    min-height: 590px;
+}
+.bigt{
+      font-size: 26px;
+    line-height: 37px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+}
+.mint{
+      font-size: 17px;
+    line-height: 37px;
+    font-family: open-sans, sans-serif;
+    font-weight: 500;
+}
